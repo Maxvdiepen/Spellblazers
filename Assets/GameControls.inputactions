@@ -44,6 +44,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Call",
+                    "type": "Button",
+                    "id": "bec2d122-43fe-479b-935c-e08fc99ef38b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -253,6 +261,17 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "R2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13d8785e-d112-4734-8150-897063fac66a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Call",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
