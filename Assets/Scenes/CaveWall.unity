@@ -273,6 +273,22 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.1790946
       objectReference: {fileID: 0}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e35cebe42acb4e943883ed359499829c,
+        type: 3}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264210348bfd3a345a7023c2850f7556, type: 3}
 --- !u!224 &181660646 stripped
@@ -551,6 +567,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc31478ea03284f44ba1815f0c0311af,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264210348bfd3a345a7023c2850f7556, type: 3}
 --- !u!224 &424582394 stripped
@@ -706,6 +728,12 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.31132078
       objectReference: {fileID: 0}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b3321fbfa468d5142bd5639de88eaca0,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264210348bfd3a345a7023c2850f7556, type: 3}
 --- !u!224 &513260427 stripped
@@ -1264,7 +1292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b5e1430499fd8743ad790a8b849b94c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc0167b0e4130244f9f615e920c16d37, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1434,6 +1462,12 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4cd959f5a684aa54e83868000a5c3399,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264210348bfd3a345a7023c2850f7556, type: 3}
 --- !u!224 &2131120132 stripped
