@@ -258,6 +258,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall
       objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.16078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.3019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.18039216
+      objectReference: {fileID: 0}
     - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
@@ -452,6 +467,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1224938483}
     m_Modifications:
+    - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7924528
+      objectReference: {fileID: 0}
+    - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.1009256
+      objectReference: {fileID: 0}
+    - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.1009256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488411936218480991, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Name
+      value: inputPlaceholder
+      objectReference: {fileID: 0}
     - target: {fileID: 3619503006405063760, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Text
@@ -567,6 +602,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3619503007401376420, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Name
+      value: inputImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.101960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.101960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.79607844
+      objectReference: {fileID: 0}
     - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Sprite
@@ -602,6 +672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3619503007143788874, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
@@ -713,6 +788,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.10980392
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.09019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.30980393
+      objectReference: {fileID: 0}
     - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
@@ -727,6 +822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.31132078
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
@@ -1281,7 +1381,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022133742}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1320,17 +1420,22 @@ PrefabInstance:
     - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9622642
+      value: 0.8207547
       objectReference: {fileID: 0}
     - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.6378437
+      value: 0.5732642
       objectReference: {fileID: 0}
     - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.081301175
+      objectReference: {fileID: 0}
+    - target: {fileID: 986645159799972491, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3619503006405063760, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
@@ -1447,20 +1552,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.57254905
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.08235294
+      objectReference: {fileID: 0}
     - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9622642
+      value: 0.8207547
       objectReference: {fileID: 0}
     - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.6378437
+      value: 0.5732642
       objectReference: {fileID: 0}
     - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.081301175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768344875678302461, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102158345841693500, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
