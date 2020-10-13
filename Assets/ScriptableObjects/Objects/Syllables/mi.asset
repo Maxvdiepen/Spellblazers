@@ -16,4 +16,7 @@ MonoBehaviour:
   pronunciation: {fileID: 0}
   typeColor:
     serializedVersion: 2
-    rgba: 3034409
+    rgba: 4281224489
+  colorToSet:
+    serializedVersion: 2
+    rgba: 4286216832

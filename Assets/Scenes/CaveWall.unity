@@ -1033,7 +1033,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 750, y: 800}
+  m_SizeDelta: {x: 750, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997909054
 MonoBehaviour:
@@ -1182,7 +1182,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 400, y: 0}
-  m_SizeDelta: {x: 750, y: 800}
+  m_SizeDelta: {x: 750, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1224938482
 GameObject:
@@ -1284,7 +1284,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 880}
+  m_SizeDelta: {x: 600, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786278312
 MonoBehaviour:
@@ -1305,7 +1305,7 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 4
   m_StartCorner: 0
-  m_StartAxis: 0
+  m_StartAxis: 1
   m_CellSize: {x: 200, y: 150}
   m_Spacing: {x: 40, y: 40}
   m_Constraint: 1
@@ -1327,6 +1327,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cb7fae4b9763b49428f4c8bfcf8080c9, type: 2}
   - {fileID: 11400000, guid: 8908d131b2f9bca4a8c25d0421460a6d, type: 2}
   - {fileID: 11400000, guid: 3f03f5753216e48488a7e5f0a588c9be, type: 2}
+  - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
   - {fileID: 11400000, guid: 595b14e1fa93f214194ef2b950e237f1, type: 2}
   - {fileID: 11400000, guid: 01c53c09e36fda444a3a06e00f5c1550, type: 2}
   - {fileID: 11400000, guid: 4b4668a2216d1be4aa6d7b5365c884c8, type: 2}
