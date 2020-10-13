@@ -9,11 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 984c15f698254de4e8184d585bc99363, type: 3}
-  m_Name: to
-  m_EditorClassIdentifier: 
-  syllable: to
-  pronunciation: {fileID: 0}
-  typeColor:
-    serializedVersion: 2
-    rgba: 3034409
+  m_Script: {fileID: 0}
+  m_Name: GuessedCorrectly
+  m_EditorClassIdentifier: Assembly-CSharp::GameEvent

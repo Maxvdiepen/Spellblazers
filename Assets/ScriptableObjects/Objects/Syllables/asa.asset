@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syllable: asa
   pronunciation: {fileID: 0}
+  typeColor:
+    serializedVersion: 2
+    rgba: 1710795

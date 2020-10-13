@@ -8,5 +8,5 @@ public class SO_Spell : ScriptableObject
 {
     public List<SO_Syllable> syllablesInName;
     public AudioClip pronunciation;
-    public Image spellPicture;
+    public Sprite spellPicture;
 }

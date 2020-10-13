@@ -13,7 +13,9 @@ public class SyllableCreator : MonoBehaviour
         for (int i = 0; i < allAvailableSyllables.Count; i++)
         {
             GameObject syllableSlot = Instantiate(slotPrefab, transform);
+            syllableSlot.GetComponent<SyllableInMenu>().syllable = allAvailableSyllables[i];
             syllableSlot.GetComponentInChildren<Text>().text = allAvailableSyllables[i].syllable;
+            syllableSlot.GetComponentInChildren<Text>().color = allAvailableSyllables[i].colorToSet;
         }
     }
 }

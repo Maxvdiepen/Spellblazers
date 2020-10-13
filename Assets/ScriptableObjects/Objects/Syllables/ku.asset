@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 984c15f698254de4e8184d585bc99363, type: 3}
-  m_Name: to
+  m_Name: ku
   m_EditorClassIdentifier: 
-  syllable: to
+  syllable: ku
   pronunciation: {fileID: 0}
   typeColor:
     serializedVersion: 2
-    rgba: 3034409
+    rgba: 5183260
