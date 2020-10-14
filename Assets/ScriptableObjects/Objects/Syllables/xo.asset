@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 984c15f698254de4e8184d585bc99363, type: 3}
   m_Name: xo
   m_EditorClassIdentifier: 
-  syllable: xo
+  syllableSpelling: xo
   pronunciation: {fileID: 0}
   typeColor:
     serializedVersion: 2
