@@ -1,0 +1,21 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SyllableCreator : MonoBehaviour
+{
+    public List<SO_Syllable> allAvailableSyllables;
+    public GameObject slotPrefab;
+
+    void Start()
+    {
+        for (int i = 0; i < allAvailableSyllables.Count; i++)
+        {
+            GameObject syllableSlot = Instantiate(slotPrefab, transform);
+            syllableSlot.GetComponent<SyllableInMenu>().syllable = allAvailableSyllables[i];
+            syllableSlot.GetComponentInChildren<Text>().text = allAvailableSyllables[i].syllableSpelling;
+            syllableSlot.GetComponentInChildren<Text>().color = allAvailableSyllables[i].colorToSet;
+        }
+    }
+}
