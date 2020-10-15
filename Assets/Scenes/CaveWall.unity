@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -870,6 +870,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall
       objectReference: {fileID: 0}
+    - target: {fileID: 4360525367784951419, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: a80184f3f7b235343b6b48bfc01d7416,
+        type: 2}
     - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
@@ -1156,7 +1162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1213,7 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 44934492}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &232662237
@@ -1531,6 +1537,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: inputImage
       objectReference: {fileID: 0}
+    - target: {fileID: 4360525367784951419, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: a80184f3f7b235343b6b48bfc01d7416,
+        type: 2}
     - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r
@@ -1632,7 +1644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -1870,6 +1882,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4360525367784951419, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: a80184f3f7b235343b6b48bfc01d7416,
+        type: 2}
     - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Enabled
@@ -2064,7 +2082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -2143,7 +2161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -2600,7 +2618,7 @@ MonoBehaviour:
   - {fileID: 513260428}
   - {fileID: 424582395}
   - {fileID: 2131120133}
-  guessedCorectly: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  guessedCorectly: {fileID: 0}
 --- !u!1 &811605464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +2966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -3152,7 +3170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119808cb4ba9b6547b0a5264b920edff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonDown: {fileID: 11400000, guid: 9b4b132768a1c8b4d831bd04b21d647c, type: 2}
+  buttonDown: {fileID: 11400000, guid: 676835292f63f614586ce6d6de32c43d, type: 2}
 --- !u!4 &1026791809
 Transform:
   m_ObjectHideFlags: 0
@@ -3179,7 +3197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 527b1a3ccd9a3eb4f99de2c4a9c954d0,
+  m_Actions: {fileID: -944628639613478452, guid: c2e515878418dbc409ddb41b8e7b1e35,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
@@ -3364,7 +3382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -3654,7 +3672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -3733,7 +3751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -3966,7 +3984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -4045,7 +4063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -4488,7 +4506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cdf30b39674fe46882c79fb4fc86c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 780fbc81dd8d74941b7fab5271e6dccf, type: 2}
+  _gameEvent: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -4950,6 +4968,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SyllableOnWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4360525367784951419, guid: 264210348bfd3a345a7023c2850f7556,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: a80184f3f7b235343b6b48bfc01d7416,
+        type: 2}
     - target: {fileID: 6036814385801704845, guid: 264210348bfd3a345a7023c2850f7556,
         type: 3}
       propertyPath: m_Color.r

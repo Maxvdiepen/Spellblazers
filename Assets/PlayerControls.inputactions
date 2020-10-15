@@ -1,25 +1,30 @@
-<<<<<<< HEAD
-﻿{}
-=======
 {
-    "name": "GameControls",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "UI",
-            "id": "765b9f59-b62f-4c99-8194-c8ce8f22a941",
+            "id": "4b00c5f9-d459-4da7-99ca-afa9a2a368db",
             "actions": [
                 {
                     "name": "Navigate",
                     "type": "Value",
-                    "id": "2458558e-520a-40ba-8cf1-9169f574b28d",
+                    "id": "2ec67a28-6abc-40a1-9853-6be77e384886",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "d64f97e5-33f9-4588-b130-1c9df7c017b0",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 },
                 {
                     "name": "L1",
                     "type": "Button",
-                    "id": "4f264f79-874a-45a7-8a31-e86f6f314d77",
+                    "id": "0b2297bd-0d90-4057-a87f-5228236355a1",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -27,7 +32,7 @@
                 {
                     "name": "L2",
                     "type": "Button",
-                    "id": "515ae479-11b1-45a1-b785-965d476e54ba",
+                    "id": "490f445d-cd00-4805-83b5-87c1a255912d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -35,7 +40,7 @@
                 {
                     "name": "R1",
                     "type": "Button",
-                    "id": "7172e512-73ec-4514-8d7b-03b5701b2284",
+                    "id": "6ac42c6d-9373-4083-b476-65ede458975f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -43,16 +48,8 @@
                 {
                     "name": "R2",
                     "type": "Button",
-                    "id": "e17344e3-7ec1-431d-9939-79954183280e",
+                    "id": "419c31f2-7de6-43cc-8791-af0303e845d7",
                     "expectedControlType": "",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Call",
-                    "type": "Button",
-                    "id": "bec2d122-43fe-479b-935c-e08fc99ef38b",
-                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -60,7 +57,7 @@
             "bindings": [
                 {
                     "name": "Gamepad",
-                    "id": "8852d347-a766-4d05-97e7-2dc5e8a997e4",
+                    "id": "809f371f-c5e2-4e7a-83a1-d867598f40dd",
                     "path": "2DVector",
                     "interactions": "Press",
                     "processors": "",
@@ -71,7 +68,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "23e98d4d-a433-4899-9a81-42dfa2472148",
+                    "id": "14a5d6e8-4aaf-4119-a9ef-34b8c2c548bf",
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
@@ -82,7 +79,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "dc556b87-efb1-4990-a2e5-a77d89f5943d",
+                    "id": "9144cbe6-05e1-4687-a6d7-24f99d23dd81",
                     "path": "<Gamepad>/rightStick/up",
                     "interactions": "",
                     "processors": "",
@@ -93,7 +90,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "35cbe915-c0f5-46a6-a694-e0858d26c506",
+                    "id": "2db08d65-c5fb-421b-983f-c71163608d67",
                     "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
@@ -104,7 +101,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "cf650e54-74e4-4eb7-835c-ea0f4208998b",
+                    "id": "58748904-2ea9-4a80-8579-b500e6a76df8",
                     "path": "<Gamepad>/rightStick/down",
                     "interactions": "",
                     "processors": "",
@@ -115,7 +112,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "b064d22b-8dd4-43c0-98c4-47cb72bff32f",
+                    "id": "8ba04515-75aa-45de-966d-393d9bbd1c14",
                     "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
@@ -126,7 +123,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "6013d222-394f-48a3-b4fd-16da7e6714c7",
+                    "id": "712e721c-bdfb-4b23-a86c-a0d9fcfea921",
                     "path": "<Gamepad>/rightStick/left",
                     "interactions": "",
                     "processors": "",
@@ -137,7 +134,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "9019934b-1d65-4500-805e-53cc3d2e57ca",
+                    "id": "fcd248ae-a788-4676-a12e-f4d81205600b",
                     "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
@@ -148,7 +145,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "502b244d-0976-4397-808a-d0cc1ac3e899",
+                    "id": "1f04d9bc-c50b-41a1-bfcc-afb75475ec20",
                     "path": "<Gamepad>/rightStick/right",
                     "interactions": "",
                     "processors": "",
@@ -159,7 +156,7 @@
                 },
                 {
                     "name": "",
-                    "id": "0b26eeb5-6201-47d0-9c79-69cb38d1437f",
+                    "id": "fb8277d4-c5cd-4663-9dc7-ee3f0b506d90",
                     "path": "<Gamepad>/dpad",
                     "interactions": "",
                     "processors": "",
@@ -170,7 +167,7 @@
                 },
                 {
                     "name": "Joystick",
-                    "id": "509f045d-7c55-477a-833f-e657f2d61ebd",
+                    "id": "e25d9774-381c-4a61-b47c-7b6b299ad9f9",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -181,7 +178,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "01364cc8-5d8a-43ee-83f6-57fa752eb1ab",
+                    "id": "3db53b26-6601-41be-9887-63ac74e79d19",
                     "path": "<Joystick>/stick/up",
                     "interactions": "",
                     "processors": "",
@@ -192,7 +189,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "1ce8c165-906d-40ab-98b4-9377bd124535",
+                    "id": "0cb3e13e-3d90-4178-8ae6-d9c5501d653f",
                     "path": "<Joystick>/stick/down",
                     "interactions": "",
                     "processors": "",
@@ -203,7 +200,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "d027e791-852a-4715-9f50-3762f557bbe9",
+                    "id": "0392d399-f6dd-4c82-8062-c1e9c0d34835",
                     "path": "<Joystick>/stick/left",
                     "interactions": "",
                     "processors": "",
@@ -214,7 +211,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "6497b839-cf47-4781-b424-8b4ca5a026a7",
+                    "id": "942a66d9-d42f-43d6-8d70-ecb4ba5363bc",
                     "path": "<Joystick>/stick/right",
                     "interactions": "",
                     "processors": "",
@@ -225,7 +222,18 @@
                 },
                 {
                     "name": "",
-                    "id": "611d3913-6332-4111-83f7-e417816518a4",
+                    "id": "9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a5c5fbd-8e2d-48a3-93f9-d54a75a18192",
                     "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
                     "processors": "",
@@ -236,7 +244,7 @@
                 },
                 {
                     "name": "",
-                    "id": "0644269d-daa7-4056-9ed0-3a34b1a0dd56",
+                    "id": "9cd5d1eb-3514-4eb6-9188-6a0582cf9f57",
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
@@ -247,7 +255,7 @@
                 },
                 {
                     "name": "",
-                    "id": "c4bcf4d6-a114-4472-ac1d-bf1f0dbba03a",
+                    "id": "9eae6e56-5034-41fa-ab61-bccd798ef35a",
                     "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
@@ -258,7 +266,7 @@
                 },
                 {
                     "name": "",
-                    "id": "69a63726-72b6-4914-a3b5-f7a3e4130fc4",
+                    "id": "a256c515-1c5d-45bf-8294-c99331339de2",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
@@ -266,21 +274,70 @@
                     "action": "R2",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "13d8785e-d112-4734-8150-897063fac66a",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Call",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "Keyboard&Mouse",
+            "bindingGroup": "Keyboard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XR",
+            "bindingGroup": "XR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }
->>>>>>> features_UI

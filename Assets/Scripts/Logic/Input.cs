@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Input : MonoBehaviour
 {
-    public GameEvent buttonDown;
+    public SO_GameEvent buttonDown;
 
     private void OnCall()
     {
