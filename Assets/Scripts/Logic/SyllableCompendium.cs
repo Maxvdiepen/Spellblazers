@@ -9,7 +9,7 @@ public class SyllableCompendium : MonoBehaviour
     public List<RectTransform> menuPositions;
     public SyllableListReference menuValues;
 
-    public void Start()
+    public void Awake()
     {
         menuPositions.Clear();
         menuValues.value.Clear();
