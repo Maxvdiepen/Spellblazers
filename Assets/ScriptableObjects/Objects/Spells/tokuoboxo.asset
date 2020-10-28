@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50b053e0efb1eac43adfee3c0dc58dd3, type: 3}
-  m_Name: mikuoboxo
+  m_Name: tokuoboxo
   m_EditorClassIdentifier: 
   syllablesInName:
   - {fileID: 11400000, guid: 01c53c09e36fda444a3a06e00f5c1550, type: 2}

@@ -12,4 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61a3b543378852c44b2ca97477426134, type: 3}
   m_Name: SyllableList
   m_EditorClassIdentifier: 
-  value: []
+  value:
+  - {fileID: 11400000, guid: cb7fae4b9763b49428f4c8bfcf8080c9, type: 2}
+  - {fileID: 11400000, guid: 8908d131b2f9bca4a8c25d0421460a6d, type: 2}
+  - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
+  - {fileID: 11400000, guid: 01c53c09e36fda444a3a06e00f5c1550, type: 2}
+  - {fileID: 11400000, guid: 4b4668a2216d1be4aa6d7b5365c884c8, type: 2}
+  - {fileID: 11400000, guid: 3f03f5753216e48488a7e5f0a588c9be, type: 2}
+  - {fileID: 11400000, guid: 595b14e1fa93f214194ef2b950e237f1, type: 2}
+  - {fileID: 11400000, guid: 59e82629f81a3ca449a3761774ed944d, type: 2}
+  - {fileID: 11400000, guid: 9bd0f8309df159444954fae028debed8, type: 2}
+  - {fileID: 11400000, guid: d805119702247564e8d3242299cd3df6, type: 2}
+  - {fileID: 11400000, guid: 235cda69246215a4582c489d73e46e5f, type: 2}
+  - {fileID: 11400000, guid: 4f1549fc8d205c54c8a568140f6646eb, type: 2}
+  - {fileID: 11400000, guid: be571a820e2efd64a9ef501202b7e889, type: 2}
