@@ -6,9 +6,9 @@ public class SpellCompendium : MonoBehaviour
 {
     public List<SO_Spell> allSpells;
     public List<GameObject> syllablesOnWall;
-    public GameEvent guessedCorectly;
+    public SO_GameEvent guessedCorrectly;
 
-    private SO_Spell inputSpell;
+    [SerializeField]private SO_Spell inputSpell;
 
     public void CheckIfSpellCorrect()
     {
@@ -23,7 +23,7 @@ public class SpellCompendium : MonoBehaviour
         {
             if (inputSpell == sp)
             {
-                guessedCorectly.Raise();
+                guessedCorrectly.Raise();
             }
         }
     }
