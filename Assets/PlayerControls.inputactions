@@ -22,6 +22,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Clear",
+                    "type": "Button",
+                    "id": "2a4db95b-97a6-42fe-88bb-3cdafaa4b624",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "L1",
                     "type": "Button",
                     "id": "0b2297bd-0d90-4057-a87f-5228236355a1",
@@ -231,7 +239,7 @@
                 {
                     "name": "",
                     "id": "9e92bb26-7e3b-4ec4-b06b-3c8f8e498ddc",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/rightStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -291,6 +299,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Call",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d393221-4296-45fe-bd0f-1e096d71e9eb",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clear",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
