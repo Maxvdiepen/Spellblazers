@@ -21,7 +21,8 @@ public class Input : MonoBehaviour
 
     private void OnNavigate()
     {
-        moveCursor.Raise();
+        //moveCursor.Raise();
+        //Debug.Log("move you fat cow");
     }
 
     private void OnSubmit()

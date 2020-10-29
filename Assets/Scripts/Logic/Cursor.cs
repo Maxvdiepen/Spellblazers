@@ -16,7 +16,7 @@ public class Cursor : MonoBehaviour
 
     private void Start()
     {
-        positionCounter = 5;
+        positionCounter = 0;
         syllablePositions = syllableCompendium.GetComponent<SyllableCompendium>().menuPositions;
         MoveCursor();
     }
@@ -30,9 +30,16 @@ public class Cursor : MonoBehaviour
 
     //private void OnNavigate(InputValue value)
     //{
-    //    if (_ready.value == false)
-    //    {
-    //        StartCoroutine(MovePlayerPick(value.Get<Vector2>()));
-    //    }
+    //    StartCoroutine(MovePlayerPick(value.Get<Vector2>()));
+    //}
+
+    //private IEnumerator MovePlayerPick(Vector2 direction)
+    //{
+    //    positionCounter = positionCounter + (int)direction.x;
+    //    if (positionCounter > syllableValues.value.Count - 1) { positionCounter = 0; }
+    //    else if (positionCounter < 0) { positionCounter = syllableValues.value.Count - 1; }
+    //    MoveCursor();
+    //    Debug.Log(positionCounter);
+    //    yield return new WaitForSeconds(1f);
     //}
 }
