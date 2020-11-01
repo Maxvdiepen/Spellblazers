@@ -7,11 +7,4 @@ public class SO_Syllable : ScriptableObject
 {
     public string syllableSpelling;
     public AudioClip pronunciation;
-    public Color32 typeColor;
-    public Color32 colorToSet;
-
-    public void SetCorrectColor()
-    {
-        colorToSet = typeColor;
-    }
 }

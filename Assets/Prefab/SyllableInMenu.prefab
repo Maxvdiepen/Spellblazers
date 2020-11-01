@@ -58,10 +58,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.11764706}
+    m_NormalColor: {r: 0.9137255, g: 0.7490196, b: 0.54901963, a: 0.47058824}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -79,6 +79,9 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 3619503007401376418}
   syllable: {fileID: 0}
+  cursorSyllable: {fileID: 11400000, guid: 92d392ca7d7cdbd488a952f53b245262, type: 2}
+  syllableBG: {fileID: 3619503007401376418}
+  syllableText: {fileID: 4543995138501066750}
 --- !u!1 &3619503007401376420
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9150943, g: 0.7493224, b: 0.5481933, a: 1}
+  m_Color: {r: 0.9150943, g: 0.7493224, b: 0.5481933, a: 0.47058824}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -15,7 +15,6 @@ public class SyllableCreator : MonoBehaviour
             GameObject syllableSlot = Instantiate(slotPrefab, transform);
             syllableSlot.GetComponent<SyllableInMenu>().syllable = allAvailableSyllables[i];
             syllableSlot.GetComponentInChildren<Text>().text = allAvailableSyllables[i].syllableSpelling;
-            syllableSlot.GetComponentInChildren<Text>().color = allAvailableSyllables[i].colorToSet;
         }
     }
 }
