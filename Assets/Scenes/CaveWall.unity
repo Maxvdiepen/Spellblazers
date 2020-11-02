@@ -1150,7 +1150,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
       value: 
-      objectReference: {fileID: 1474445413}
+      objectReference: {fileID: 1107929291}
     - target: {fileID: 1769618145222668857, guid: 56bc6f8903d399b4099e5c94fd305f56,
         type: 3}
       propertyPath: m_Navigation.m_SelectOnDown

@@ -19,12 +19,6 @@ public class Input : MonoBehaviour
         buttonDown.Raise();
     }
 
-    private void OnNavigate()
-    {
-        //moveCursor.Raise();
-        //Debug.Log("move you fat cow");
-    }
-
     private void OnSubmit()
     {
         submitSolution.Raise();
