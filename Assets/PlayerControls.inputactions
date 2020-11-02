@@ -35,7 +35,7 @@
                     "id": "0b2297bd-0d90-4057-a87f-5228236355a1",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
                     "name": "L2",
@@ -43,7 +43,7 @@
                     "id": "490f445d-cd00-4805-83b5-87c1a255912d",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
                     "name": "R1",
@@ -51,7 +51,7 @@
                     "id": "6ac42c6d-9373-4083-b476-65ede458975f",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
                     "name": "R2",
@@ -59,7 +59,7 @@
                     "id": "419c31f2-7de6-43cc-8791-af0303e845d7",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
                     "name": "Call",

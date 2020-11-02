@@ -29,12 +29,12 @@ public class Input : MonoBehaviour
         clearSolution.Raise();
     }
 
-    private void OnL1()
+    private void OnL2()
     {
         selectPrefix.Raise();
     }
 
-    private void OnL2()
+    private void OnL1()
     {
         selectRoot.Raise();
     }

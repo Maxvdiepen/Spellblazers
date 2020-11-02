@@ -13,7 +13,7 @@ public class UIFunctions : MonoBehaviour
     public void StartFadingImage()
     {
         Image inputSuggestion = this.GetComponent<Image>();
-        StartCoroutine(ImageFadeInAndOut(inputSuggestion, 0.9f));
+        StartCoroutine(ImageFadeInAndOut(inputSuggestion, 1f));
     }
 
     public IEnumerator ImageFadeInAndOut(Image ImageToFade, float lerpTime)

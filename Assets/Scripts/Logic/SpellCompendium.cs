@@ -16,7 +16,7 @@ public class SpellCompendium : MonoBehaviour
         
         foreach(GameObject sow in syllablesOnWall)
         {
-            inputSpell.syllablesInName.Add(sow.GetComponent<SyllableOnWall>().syllable);
+            inputSpell.syllablesInName.Add(sow.GetComponent<SyllableOnWall>().syllableValue);
         }
 
         foreach(SO_Spell sp in allSpells)
