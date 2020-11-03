@@ -19,3 +19,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59e82629f81a3ca449a3761774ed944d, type: 2}
   pronunciation: {fileID: 0}
   spellPicture: {fileID: 21300000, guid: b8755f8bed5d08546a6966d240d07d87, type: 3}
+  translation: Gravity Field
