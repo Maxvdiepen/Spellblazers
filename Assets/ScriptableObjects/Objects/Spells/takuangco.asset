@@ -17,6 +17,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
   - {fileID: 11400000, guid: 235cda69246215a4582c489d73e46e5f, type: 2}
   - {fileID: 11400000, guid: 8908d131b2f9bca4a8c25d0421460a6d, type: 2}
-  pronunciation: {fileID: 0}
+  pronunciation: {fileID: 8300000, guid: f43ae7ec6c1bc4642ae30366ebc6fc91, type: 3}
   spellPicture: {fileID: 21300000, guid: 599b12c30758ac448827f44640f51564, type: 3}
   translation: Poison Mist

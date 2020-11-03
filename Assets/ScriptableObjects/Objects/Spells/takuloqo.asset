@@ -17,6 +17,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
   - {fileID: 11400000, guid: 595b14e1fa93f214194ef2b950e237f1, type: 2}
   - {fileID: 11400000, guid: 59e82629f81a3ca449a3761774ed944d, type: 2}
-  pronunciation: {fileID: 0}
+  pronunciation: {fileID: 8300000, guid: e88a3e3f4e3d65e48a583dc398be93e8, type: 3}
   spellPicture: {fileID: 21300000, guid: b8755f8bed5d08546a6966d240d07d87, type: 3}
   translation: Gravity Field

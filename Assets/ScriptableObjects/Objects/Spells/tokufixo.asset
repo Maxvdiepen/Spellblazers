@@ -17,6 +17,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
   - {fileID: 11400000, guid: 3f03f5753216e48488a7e5f0a588c9be, type: 2}
   - {fileID: 11400000, guid: 59e82629f81a3ca449a3761774ed944d, type: 2}
-  pronunciation: {fileID: 0}
+  pronunciation: {fileID: 8300000, guid: 97d8a74e1bf839d4e937267d34d3f43f, type: 3}
   spellPicture: {fileID: 21300000, guid: b0b5e38ea9403424cbb0a3619dd58664, type: 3}
   translation: Lightning Strike

@@ -17,6 +17,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 360a9441a61d28140b3caf8b3675e8d4, type: 2}
   - {fileID: 11400000, guid: cb7fae4b9763b49428f4c8bfcf8080c9, type: 2}
   - {fileID: 11400000, guid: d805119702247564e8d3242299cd3df6, type: 2}
-  pronunciation: {fileID: 0}
+  pronunciation: {fileID: 8300000, guid: 6bb81e8ce7749c9498090078e28abf00, type: 3}
   spellPicture: {fileID: 21300000, guid: 05e53e3c982e6834589ad32a450f95ba, type: 3}
   translation: Stone Spear

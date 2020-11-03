@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class SpellCompendium : MonoBehaviour
 {
     public List<SO_Spell> allSpells;
     public List<GameObject> syllablesOnWall;
     public SO_GameEvent guessedCorrectly;
+    [SerializeField] private SO_Spell inputSpell;
 
     public Image solutionPainting;
     public Text solutionText;
 
-    [SerializeField]private SO_Spell inputSpell;
+    public AudioSource orator;
 
     public void CheckIfInputCorrect()
     {
@@ -38,6 +40,7 @@ public class SpellCompendium : MonoBehaviour
             {
                 SetSolution(sp);
                 ToggleSolution();
+                ChangeAndPlayAudioClip(sp);
             }
         }
     }
@@ -64,5 +67,11 @@ public class SpellCompendium : MonoBehaviour
     {
         solutionPainting.enabled = !solutionPainting.enabled;
         solutionText.enabled = !solutionText.enabled;
+    }
+
+    public void ChangeAndPlayAudioClip(SO_Spell solvedSolution)
+    {
+        orator.clip = solvedSolution.pronunciation;
+        orator.Play();
     }
 }

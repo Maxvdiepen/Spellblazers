@@ -2338,7 +2338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776133991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 960, y: 1080, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2370,9 +2370,10 @@ MonoBehaviour:
   - {fileID: 424582395}
   - {fileID: 2131120133}
   guessedCorrectly: {fileID: 11400000, guid: c375f2f8e6a23924e9c52defb403778f, type: 2}
+  inputSpell: {fileID: 11400000, guid: 3c9b72d534c16bb4aa8df421cfa1e874, type: 2}
   solutionPainting: {fileID: 2022133744}
   solutionText: {fileID: 1365895466}
-  inputSpell: {fileID: 11400000, guid: 3c9b72d534c16bb4aa8df421cfa1e874, type: 2}
+  orator: {fileID: 776133995}
 --- !u!114 &776133994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2411,7 +2412,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
