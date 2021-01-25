@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Maxvd\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Maxvd\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Spellblazers.-769406133.00" t="ExcludeRecursive" />
+    <e p="D:\Maxvd\Documents\Github\Spellblazers" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ScriptableObjects" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="GameEvent.cs" t="Include" />
+            <e p="SO_GameEvent.cs" t="Include" />
+            <e p="SO_Spell.cs" t="Include" />
+            <e p="SO_Syllable.cs" t="Include" />
+            <e p="ValueReferences" t="Include">
+              <e p="BoolReference.cs" t="Include" />
+              <e p="FloatReference.cs" t="Include" />
+              <e p="IntReference.cs" t="Include" />
+              <e p="StringReference.cs" t="Include" />
+              <e p="SyllableListReference.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="GameEvent" t="Include">
+            <e p="GameEventListener.cs" t="Include" />
+            <e p="GameEventRaiser.cs" t="Include" />
+          </e>
+          <e p="Logic" t="Include">
+            <e p="Cursor.cs" t="Include" />
+            <e p="Input.cs" t="Include" />
+            <e p="SpellCompendium.cs" t="Include" />
+            <e p="SyllableCompendium.cs" t="Include" />
+            <e p="SyllableCreator.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="SyllableInMenu.cs" t="Include" />
+            <e p="SyllableOnWall.cs" t="Include" />
+            <e p="UIFunctions.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Spellblazers.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -16,7 +16,8 @@ public class Input : MonoBehaviour
 
     private void OnCall()
     {
-        buttonDown.Raise();
+        // buttonDown.Raise();
+        StartCoroutine(InputToEvent(buttonDown));
     }
 
     private void OnSubmit()
@@ -47,5 +48,11 @@ public class Input : MonoBehaviour
     private void OnR2()
     {
         selectSuffix.Raise();
+    }
+    
+    public IEnumerator InputToEvent(SO_GameEvent EventToRaise)
+    {
+        EventToRaise.Raise();
+        yield return new WaitForSeconds(10f);
     }
 }

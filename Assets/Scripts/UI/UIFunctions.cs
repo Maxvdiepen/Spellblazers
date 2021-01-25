@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class UIFunctions : MonoBehaviour
 {
+    public BoolReference isPlayerActive;
+    
     public void ToggleVisibility()
     {
         this.GetComponent<Text>().enabled =! this.GetComponent<Text>().enabled;
@@ -12,50 +14,40 @@ public class UIFunctions : MonoBehaviour
 
     public void StartFadingImage()
     {
-        Image inputSuggestion = this.GetComponent<Image>();
-        StartCoroutine(ImageFadeInAndOut(inputSuggestion, 1f));
+        Image inputImage = this.GetComponent<Image>();
+        StartCoroutine(ImageFadeInAndOut(inputImage, 1f));
     }
 
-    public IEnumerator ImageFadeInAndOut(Image ImageToFade, float lerpTime)
+    public IEnumerator ImageFadeInAndOut(Image ImageToFade, float LerpTime)
     {
         float timeStarted = Time.time;
-        float timeSinceStart = Time.time - timeStarted;
-        float percentage = timeSinceStart / lerpTime;
-        bool cycleSwitch = false;
+        bool cycleSwitch = true;
         
-        while (true)
+        float percentage;
+        
+        Debug.Log("Enter the loop");
+
+        while (isPlayerActive.value == false)
         {
-            while (cycleSwitch == false)
+            float timeSinceStart = Time.time - timeStarted;
+            if (cycleSwitch) { percentage = timeSinceStart / LerpTime; }
+            else { percentage = 1 - (timeSinceStart / LerpTime); }
+
+            Debug.Log(percentage);
+            SetImageOpacity(ImageToFade, percentage);
+
+            if (percentage > 1 || percentage < 0)
             {
-                timeSinceStart = Time.time - timeStarted;
-                percentage = timeSinceStart / lerpTime;
-
-                ImageToFade.color = new Color(0, 0, 0, percentage);
-
-                if (percentage >= 1)
-                {
-                    timeStarted = Time.time;
-                    cycleSwitch = !cycleSwitch;
-                    break;
-                }
-                yield return new WaitForEndOfFrame();
+                timeStarted = Time.time;
+                cycleSwitch = !cycleSwitch;
             }
-
-            while (cycleSwitch == true)
-            {
-                timeSinceStart = Time.time - timeStarted;
-                percentage = 1 - (timeSinceStart / lerpTime);
-
-                ImageToFade.color = new Color(0, 0, 0, percentage);
-
-                if (percentage <= 0)
-                {
-                    timeStarted = Time.time;
-                    cycleSwitch = !cycleSwitch;
-                    break;
-                }
-                yield return new WaitForEndOfFrame();
-            }
+            yield return new WaitForEndOfFrame();
         }
+        SetImageOpacity(ImageToFade, 0f);
+    }
+
+    public void SetImageOpacity(Image TargetImage, float Percentage)
+    {
+        TargetImage.color = new Color(0, 0, 0, Percentage);
     }
 }
